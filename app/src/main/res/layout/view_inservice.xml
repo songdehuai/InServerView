@@ -15,6 +15,13 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/bg_fence_inner_expand">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="围栏内展开布局"
+            android:textColor="@color/colorPrimary" />
 
     </RelativeLayout>
 
@@ -25,12 +32,18 @@
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/bg_fence"
         android:visibility="gone">
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="围栏内关闭布局"
+            android:textColor="@color/colorPrimary" />
     </RelativeLayout>
 
     <!--围栏外展开-->
@@ -45,7 +58,13 @@
         android:background="@drawable/bg_fence_outer_closed"
         android:visibility="gone">
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="围栏外展开布局"
+            android:textColor="@color/colorPrimary" />
     </RelativeLayout>
 
     <!--围栏外关闭-->
@@ -60,6 +79,13 @@
         android:background="@drawable/bg_fence"
         android:visibility="visible">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="围栏外关闭布局"
+            android:textColor="@color/colorPrimary" />
     </RelativeLayout>
 
 </LinearLayout>

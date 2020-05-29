@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.kotlin.inserverview.InServiceView
+    <com.kotlin.inserverview.InServiceView1
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
