@@ -69,13 +69,14 @@ class InServiceView1 : LinearLayout {
     }
 
     private fun outer() {
-        val innerAnim = AnimationUtils.loadAnimation(context, R.anim.expand_down)
+
+        val outerAnim = AnimationUtils.loadAnimation(context, R.anim.expand_up)
+        outerView.animation = outerAnim
+        outerView.visibility = View.VISIBLE
+
+        val innerAnim = AnimationUtils.loadAnimation(context, R.anim.closed_down)
         innerView.animation = innerAnim
         innerView.visibility = View.GONE
 
-
-        val outerAnim = AnimationUtils.loadAnimation(context, R.anim.closed_up)
-        outerView.animation = outerAnim
-        outerView.visibility = View.VISIBLE
     }
 }

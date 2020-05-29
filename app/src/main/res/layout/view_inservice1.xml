@@ -25,7 +25,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="围栏内展开布局"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="#F4C40B" />
 
         </RelativeLayout>
 
@@ -45,7 +45,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="围栏外关闭布局"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="#20DDB7" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -74,7 +74,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="围栏外展开布局"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="#20DDB7" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -93,7 +93,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="围栏内关闭布局"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="#F4C40B" />
         </RelativeLayout>
 
 
